@@ -17,7 +17,7 @@ span {
   padding-bottom: 2.5rem;
   background-color: #EAEAEA;
   border-radius: 15px;
-  box-shadow: 0px 4px 108px rgba(253, 150, 160, 0.15);
+  box-shadow: 0px 4px 25px rgba(243, 236, 237, 0.562);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,10 +81,14 @@ h2 {
   align-items: center;
 }
 
+.d0 {
+  grid-area: auto;
+}
+
 .divider {
   height: 2px;
-  border-radius: 1px;
-  background-color: var(--grey-accent);
+  border-radius: 50px;
+  background-color: rgba(219, 14, 48, 0.205);
 }
 
 a {
