@@ -39,7 +39,7 @@ span {
 .about-me-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr [col-start]);
-  grid-column-gap: 1rem;
+  column-gap: 1rem;
   padding-top: 20px;
 }
 
@@ -88,9 +88,11 @@ h2 {
 }
 
 .divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   height: 2px;
   border-radius: 50px;
-  background-color: rgba(219, 14, 48, 0.205);
+  background-color: rgba(128, 124, 125, 0.205);
 }
 
 a {
