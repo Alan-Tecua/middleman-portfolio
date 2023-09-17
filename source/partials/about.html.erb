@@ -31,52 +31,52 @@
     <div class="body-container">
       <h2>Projects</h2>
 
-      <div id="about_me" class="body-container">
-        <div class="about-me-container">
-          <div id="avatar">
+      <div id="project_info" class="body-container">
+        <div class="project-info-container">
+          <div id="project">
               <!-- Slideshow container -->
-            <div class="slideshow-container">
+            <div class="slideshow-container" id="fitit">
               <!-- Full-width images with number and caption text -->
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/1.PNG", alt: "homepage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/2.PNG", alt: "commentpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/3.PNG", alt: "userpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/4.PNG", alt: "previewpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/5.PNG", alt: "editpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
+              <div class="fitit">
                 <%= image_tag "fitit/6.PNG", alt: "additempage", style: "width:100%" %>
               </div>
 
               <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides1(1)">&#10095;</a>
             </div>
             <br>
             <!-- The dots/circles -->
             <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
-              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(1)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(2)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(3)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(4)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(5)"></span>
+              <span class="dot-fitit" onclick="currentSlide1(6)"></span>
             </div>
           </div>
-          <div class="about-me">
+          <div class="project-info">
             <p>
               The name's Alan, a former industrial designer, living in Japan and now turning my career
               into that of a <strong>full-stack web developer</strong>. </p>
@@ -96,52 +96,47 @@
       </div>
       <div class="divider d0"></div>
 
-      <div id="about_me" class="body-container">
-        <div class="about-me-container">
-          <div id="avatar">
+      <div id="project_info" class="body-container">
+        <div class="project-info-container">
+          <div id="project">
               <!-- Slideshow container -->
-            <div class="slideshow-container">
+            <div class="slideshow-container" id="canvas">
               <!-- Full-width images with number and caption text -->
-              <div class="mySlides">
-                <%= image_tag "fitit/1.PNG", alt: "homepage", style: "width:100%" %>
+              <div class="canvas">
+                <%= image_tag "canvas/1.PNG", alt: "homepage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
-                <%= image_tag "fitit/2.PNG", alt: "commentpage", style: "width:100%" %>
+              <div class="canvas">
+                <%= image_tag "canvas/2.PNG", alt: "commentpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
-                <%= image_tag "fitit/3.PNG", alt: "userpage", style: "width:100%" %>
+              <div class="canvas">
+                <%= image_tag "canvas/3.PNG", alt: "userpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
-                <%= image_tag "fitit/4.PNG", alt: "previewpage", style: "width:100%" %>
+              <div class="canvas">
+                <%= image_tag "canvas/4.PNG", alt: "previewpage", style: "width:100%" %>
               </div>
 
-              <div class="mySlides">
-                <%= image_tag "fitit/5.PNG", alt: "editpage", style: "width:100%" %>
-              </div>
-
-              <div class="mySlides">
-                <%= image_tag "fitit/6.PNG", alt: "additempage", style: "width:100%" %>
+              <div class="canvas">
+                <%= image_tag "canvas/5.PNG", alt: "editpage", style: "width:100%" %>
               </div>
 
               <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
             </div>
             <br>
             <!-- The dots/circles -->
             <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
-              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot-canvas" onclick="currentSlide2(1)"></span>
+              <span class="dot-canvas" onclick="currentSlide2(2)"></span>
+              <span class="dot-canvas" onclick="currentSlide2(3)"></span>
+              <span class="dot-canvas" onclick="currentSlide2(4)"></span>
+              <span class="dot-canvas" onclick="currentSlide2(5)"></span>
             </div>
           </div>
-          <div class="about-me">
+          <div class="project-info">
             <p>
               The name's Alan, a former industrial designer, living in Japan and now turning my career
               into that of a <strong>full-stack web developer</strong>. </p>
