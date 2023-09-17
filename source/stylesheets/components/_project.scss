@@ -1,0 +1,16 @@
+#fit_it p {
+  color: #231F20;
+  font-weight: 300;
+  font-size: 18px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-right: -25rem;
+}
+
+.fit-it-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr [col-start]);
+  grid-column-gap: 1rem;
+  padding-top: 20px;
+}
