@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
+  max-width: 700px;
   position: relative;
   margin: auto;
 }
@@ -123,7 +123,6 @@ a {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  margin-right: -25rem;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -135,7 +134,6 @@ a {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  margin-right: -25rem;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -144,17 +142,11 @@ a {
   margin-top: 0rem;
   font-size: 30px;
   color: #E20A48;
-  margin-right: -25rem;
   text-align: left;
 }
 
-.project-info-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr [col-start]);
-  column-gap: 1rem;
-  padding-top: 25px;
-}
 
 .tech-skills {
   padding: 1rem;
+  text-align: center;
 }

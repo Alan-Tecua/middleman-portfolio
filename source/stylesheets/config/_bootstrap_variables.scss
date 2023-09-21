@@ -26,6 +26,7 @@ $border-radius-sm: 2px;
 
 .override .btn-success {
   color: #ffffff;
+  width: 101.89px;
 
 }
 
@@ -36,9 +37,13 @@ $border-radius-sm: 2px;
 
 .override .btn-info {
   color: #ffffff;
+  width: 101.89px;
 
 }
 .override .btn-info:hover {
   color: #ffffff;
+}
 
+.override {
+  text-align: center;
 }

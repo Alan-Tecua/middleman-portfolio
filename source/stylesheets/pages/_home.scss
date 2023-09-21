@@ -1,17 +1,5 @@
 // Specific CSS for your home-page
 
-// @media(max-width: 992px) {
-//   .cards {
-//     grid-template-columns: 1fr 1fr;
-//   }
-// }
-
-// @media(max-width: 768px) {
-//   .cards {
-//     grid-template-columns: 1fr;
-//   }
-// }
-
 @media (max-width: 1920px) {
 
   .container {
@@ -24,6 +12,13 @@
     // grid-template-columns: auto;
     column-gap: 1rem;
     padding-top: 20px;
+  }
+
+  .project-info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr [col-start]);
+    column-gap: 1rem;
+    padding-top: 25px;
   }
 
 }
@@ -43,12 +38,20 @@
     margin-right: 25px;
   }
 
+  .project-info-container {
+    display: inline;
+    column-gap: 1rem;
+    padding-top: 25px;
+  }
+
+
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     margin: auto;
+    max-width: 800px;
   }
 
   .about-me-container {
@@ -62,12 +65,25 @@
     margin-right: 25px;
     margin-top: 25px;
   }
+
+  .banner h1 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     margin: auto;
+    max-width: 600px;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+  }
+
+  .banner p {
+    font-size: 25px;
   }
 }
 
@@ -75,26 +91,49 @@
   /* For a screen < 540px, this CSS will be read */
   .container {
     margin: auto;
+    max-width: 500px;
   }
 
   .banner h1 {
     text-align: center;
+    font-size: 40px;
   }
   .banner p {
-    font-size: 35px;
+    font-size: 18px;
   }
 }
 
-@media (max-width: 195px) {
-  /* For a screen so small, this CSS will be read */
-  .image-container {
+@media (max-width: 412px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
     margin: auto;
+    max-width: 500px;
   }
+
   .banner h1 {
     text-align: center;
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 18px;
   }
 }
 
+@media (max-width: 280px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .banner h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+}
 
 
 body {
@@ -120,7 +159,9 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
 
 #avatar {
   grid-column-start: span 2;
