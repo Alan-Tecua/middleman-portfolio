@@ -12,18 +12,32 @@
 //   }
 // }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
+  .container {
+    margin: auto;
+    max-width: 1000px;
+  }
+
   .content-container {
-    width: 700px;
     margin: auto;
   }
+
+  .about-me {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
     margin: auto;
+  }
+
+  .about-me-container {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   // .image-container {
@@ -106,8 +120,8 @@ span {
 }
 
 .about-me-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr [col-start]);
+  display: flex;
+  // grid-template-columns: auto;
   column-gap: 1rem;
   padding-top: 20px;
 }
@@ -115,6 +129,8 @@ span {
 
 .profile-img {
   width: 248px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 h2 {
@@ -131,7 +147,7 @@ h2 {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  margin-right: -25rem;
+  // margin-right: -25rem;
   text-align: justify;
   text-justify: inter-word;
 }
