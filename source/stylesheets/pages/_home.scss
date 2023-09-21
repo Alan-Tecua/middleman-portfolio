@@ -21,6 +21,18 @@
     padding-top: 25px;
   }
 
+  .content-container {
+    margin: auto;
+    padding: 0em 2.5em 8em 2.5em;
+  }
+
+  #about_me p {
+    font-size: 18px;
+  }
+  #project_info p {
+    font-size: 18px;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -29,14 +41,10 @@
     max-width: 1000px;
   }
 
-  .content-container {
-    margin: auto;
-  }
-
-  .about-me {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
+  // .about-me {
+  //   margin-left: 25px;
+  //   margin-right: 25px;
+  // }
 
   .project-info-container {
     display: inline;
@@ -51,7 +59,7 @@
   /* For a screen < 960px, this CSS will be read */
   .container {
     margin: auto;
-    max-width: 800px;
+    max-width: 790px;
   }
 
   .about-me-container {
@@ -61,8 +69,6 @@
   }
 
   .about-me {
-    margin-left: 25px;
-    margin-right: 25px;
     margin-top: 25px;
   }
 
@@ -101,13 +107,40 @@
   .banner p {
     font-size: 18px;
   }
+
+  #project_info h2 {
+    margin-top: 1rem;
+  }
+
+  #curious h2 {
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 414px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 400px;
+  }
+
+  #project_info h3 {
+    font-size: 16px;
+  }
+
+  #curious h2 {
+    font-size: 20px;
+
+  }
+
+  .content-container {
+    padding: 1.5rem;
+  }
+
+  .about-me {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 25px;
   }
 
   .banner h1 {
@@ -123,16 +156,59 @@
   /* For a screen < 540px, this CSS will be read */
   .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 280px;
+  }
+  .content-container {
+    padding: 0.5rem;
   }
 
   .banner h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
   }
   .banner p {
+    font-size: 12px;
+  }
+  .overlay-img {
+    left: -45px;
+  }
+
+  .about-me {
+    margin-top: 25px;
+  }
+  .body-container h2 {
+    font-size: 25px;
+  }
+
+  #project_info h2 {
     font-size: 18px;
   }
+  #project_info h3 {
+    font-size: 14px;
+  }
+  #project_info p {
+    font-size: 14px;
+  }
+
+  #about_me p {
+    font-size: 14px;
+  }
+  .about-me {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #curious h2 {
+    font-size: 18px;
+  }
+  #curious p {
+    font-size: 14px;
+  }
+
+  .override {
+    display: flex;
+  }
+
 }
 
 
@@ -150,7 +226,6 @@ span {
 
 .content-container {
   margin-top: 90vh;
-  padding: 0em 2.5em 8em 2.5em;
   padding-bottom: 2.5rem;
   background-color: #EAEAEA;
   border-radius: 15px;
@@ -192,7 +267,6 @@ h2 {
 #about_me p {
   color: #231F20;
   font-weight: 300;
-  font-size: 18px;
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
