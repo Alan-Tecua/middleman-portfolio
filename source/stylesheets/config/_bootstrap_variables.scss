@@ -22,16 +22,21 @@ $border-radius:    2px;
 $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
-// Override other variables below!
+// Override variables
 
 .override .btn-success {
   color: #ffffff;
   width: 101.89px;
+  background-image: linear-gradient(to right, #E20A48 0%, #231F20 100%);
+  border-style: none;
 
 }
 
 .override .btn-success:hover {
   color: #ffffff;
+  background-position: right center;
+  transition: 1s;
+  background-size: 150% auto;
 
 }
 
@@ -46,4 +51,10 @@ $border-radius-sm: 2px;
 
 .override {
   text-align: center;
+}
+
+.override .btn-outline-secondary {
+  border-color: #ffffff;
+  color: #ffffff;
+  border-style: none;
 }
