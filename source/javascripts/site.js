@@ -82,10 +82,39 @@ function showSlides3(n) {
     dots[slideIndex3-1].className += " active";
 }
 
+
+// old portfolio
+let slideIndexOp = 1;
+  // Next/previous controls
+function plusSlidesOp(n) {
+    showSlidesOp(slideIndexOp += n);
+}
+  // Thumbnail image controls
+function currentSlideOp(n) {
+    showSlidesOp(slideIndexOp = n);
+}
+
+function showSlidesOp(n) {
+    let i;
+    let slides = document.getElementsByClassName("portfolio");
+    let dots = document.getElementsByClassName("dot-portfolio");
+    if (n > slides.length) {slideIndexOp = 1}
+    if (n < 1) {slideIndexOp = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndexOp-1].style.display = "block";
+    dots[slideIndexOp-1].className += " active";
+}
+
 // show the images on loading site
 window.onload = function() {
   console.log("hello from JS");
   showSlides1(slideIndex1);
   showSlides2(slideIndex2);
   showSlides3(slideIndex3);
+  showSlidesOp(slideIndexOp);
 }
