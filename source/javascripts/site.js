@@ -1,3 +1,32 @@
+// doko
+let slideIndex4 = 1;
+
+  // Next/previous controls
+function plusSlides4(n) {
+    showSlides4(slideIndex4 += n);
+}
+
+  // Thumbnail image controls
+function currentSlide4(n) {
+    showSlides4(slideIndex4 = n);
+}
+
+function showSlides4(n) {
+    let i;
+    let slides = document.getElementsByClassName("doko");
+    let dots = document.getElementsByClassName("dot-doko");
+    if (n > slides.length) {slideIndex4 = 1}
+    if (n < 1) {slideIndex4 = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex4-1].style.display = "block";
+    dots[slideIndex4-1].className += " active";
+}
+
 // fitit
 let slideIndex1 = 1;
 
@@ -112,9 +141,10 @@ function showSlidesOp(n) {
 
 // show the images on loading site
 window.onload = function() {
-  console.log("hello from JS");
+  console.log("fix me later");
   showSlides1(slideIndex1);
   showSlides2(slideIndex2);
   showSlides3(slideIndex3);
+  showSlides4(slideIndex4);
   showSlidesOp(slideIndexOp);
 }
