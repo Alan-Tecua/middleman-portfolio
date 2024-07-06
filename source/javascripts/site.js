@@ -152,7 +152,7 @@ function imgCarousel(slideClass, dotClass, index) {
       s[i].style.display = "none";
     }
     for (i = 0; i < d.length; i++) {
-      d[1].className = d[i].className.replace(" active","")
+      d[i].className = d[i].className.replace(" active","")
     }
     s[slideIndex - 1].style.display="block";
     d[slideIndex - 1].className +=" active"
