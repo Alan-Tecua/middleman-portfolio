@@ -139,6 +139,18 @@ function showSlidesOp(n) {
     dots[slideIndexOp-1].className += " active";
 }
 
+//updated carousel
+function imgCarousel(slideClass, dotClass, index) {
+  let slideIndex = index || 1;
+  function showSlides(n) {
+    let i;
+    let s = document.getElementsByClassName(slideClass);
+    let d = document.getElementsByClassName(dotClass)
+    if (n > s.length) {slideIndex = 1}
+
+  }
+}
+
 // show the images on loading site
 window.onload = function() {
   console.log("fix me later");
