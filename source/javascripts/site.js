@@ -176,11 +176,11 @@ function imgCarousel(slideClass, dotClass, index) {
 
 window.onload = function () {
   console.log("fix me later");
-  window.carouselFitit = imgCarousel("fitit", "dot-fitit", 1);
-  window.carouselCanvas = imgCarousel("canvas", "dot-canvas", 1);
-  window.carouselWeather = imgCarousel("weatherAPI", "dot-weather", 1);
-  window.carouselPortfolio = imgCarousel("portfolio", "dot-portfolio", 1);
-  window.carouselDoko = imgCarousel("doko", "dot-doko", 1);
+  window.cFitit = imgCarousel("fitit", "dot-fitit", 1);
+  window.cCanvas = imgCarousel("canvas", "dot-canvas", 1);
+  window.cWeather = imgCarousel("weatherAPI", "dot-weather", 1);
+  window.cPortfolio = imgCarousel("portfolio", "dot-portfolio", 1);
+  window.cDoko = imgCarousel("doko", "dot-doko", 1);
 };
 
 // show the images on loading site
