@@ -9,8 +9,8 @@ en:
     title: "My Work"
     wp:
       doko: "DOKOJAPAN K.K."
-      position: "FullStack Developer"
-      doko1: "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product <span><a target='_blank' href='https://www.menuforgood.com/'>menuforGOOD</a></span>, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations."
+      dokop: "FullStack Developer"
+      dokod: "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product <span><a target='_blank' href='https://www.menuforgood.com/'>menuforGOOD</a></span>, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations."
   projects:
     title: "My Projects"
     pr:
@@ -26,7 +26,12 @@ en:
       p3d: "A fetch and request API weather app to check the current condition of cities around the world; done with Typescript, React and TailwindCSS."
   past:
     title: "Curious about my past?"
-    desc: "Check out my previous <a href='https://drive.google.com/drive/folders/1OWToFHsYwPw4ll_vwbzfJ2UeQN7QCaxv?usp=sharing' rel='nofollow'>Industrial Designer Portfolio!</a>"
+    desc: "Check out my previous <a href='https://drive.google.com/drive/folders/1OWToFHsYwPw4ll_vwbzfJ2UeQN7QCaxv?usp=sharing' target='_blank' rel='nofollow'>Industrial Designer Portfolio!</a>"
   mtc:
     title: "<strong>More projects to come!</strong>"
     desc: "Stay in touch to see my future projects"
+  footer:
+    title: "Find me here"
+  banner:
+    title: "Alan Sanchez Tecuapetla"
+    sub: "<span class='line-separator'> | </span>Fullstack Web Developer<span><strong> + </strong></span>Designer <span class='line-separator'> | </span>"

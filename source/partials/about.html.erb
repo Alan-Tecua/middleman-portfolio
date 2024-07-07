@@ -108,12 +108,8 @@
           </div>
           <div class="project-info">
             <h2><strong><%= t('work.wp.doko') %></strong></h2>
-            <h3>FullStack Developer</h3>
-            <p>
-              Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development.
-              Worked on the launch of the new company product <span><a target="_blank" href="https://www.menuforgood.com/">menuforGOOD</a></span>, as well created prototypes on
-              Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.
-            </p>
+            <h3><%= t('work.wp.dokop') %></h3>
+            <p><%= t('work.wp.dokod') %></p>
             <div class="tech-skills">
               <%= image_tag 'https://res.cloudinary.com/dd05o0vvo/image/upload/v1720156600/Portfolio/icons/e8fzj0thghmyqvx7lhgr.png', alt: "vuelogo", class: "tech-icons" %>
               <%= image_tag 'https://res.cloudinary.com/dd05o0vvo/image/upload/v1720156600/Portfolio/icons/ylovb0bxkk0vhjshyyf8.png', alt: "nuxtlogo", class: "tech-icons" %>
@@ -133,7 +129,7 @@
       <div class="divider d0"></div>
   <!-- PROJECTS -->
     <div class="body-container">
-      <h2>My Projects</h2>
+      <h2><%= t('projects.title') %></h2>
       <div class="divider d0"></div>
 
       <div id="project_info" class="body-container">
@@ -182,17 +178,10 @@
             </div>
           </div>
           <div class="project-info">
-            <h2><strong>Fit-It</strong></h2>
-            <h3>UX Design <span>+</span> Product Lead <span>+</span> FullStack developer</h3>
-            <p>
-              This web-application helps users visualize a better layout for a new residence,
-              to relieve stress when preparing to move into a new home by deciding the future of new furniture into your home.
-              And just like the slogan says:
-            </p>
-            <p>
-              Clean Layout, Clear Mind.
-            </p>
-
+            <h2><%= t('projects.pr.p1') %></h2>
+            <h3><%= t('projects.pr.p1s') %></h3>
+            <p><%= t('projects.pr.p1d') %></p>
+            <p><%= t('projects.pr.p1d2') %></p>
             <div class="tech-skills">
               <%= image_tag 'tech/figma-logo.svg', alt: "figmalogo", class: "tech-icons" %>
               <%= image_tag 'tech/ruby-logo.svg', alt: "rubylogo", class: "tech-icons" %>
@@ -252,14 +241,9 @@
             </div>
           </div>
           <div class="project-info">
-           <h2><strong>Canvas Culture</strong></h2>
-            <h3>UX Design <span>+</span> Product Lead <span>+</span> FullStack developer</h3>
-            <p>
-              A fun website which allows users to search, request and rent famous paintings from all around the world.
-              Get also real time notification of your request, accept or decline renting your own artwork and appoint the
-              time and date you will use the painting for your next show event.
-            </p>
-
+           <h2><%= t('projects.pr.p2') %></h2>
+            <h3><%= t('projects.pr.p2s') %></h3>
+            <p><%= t('projects.pr.p2d') %></p>
             <div class="disclaimer">
               <%# <p><i>Site is not responsive to <span>mobile...</span> yet</i></p> %>
             </div>
@@ -318,13 +302,9 @@
             </div>
           </div>
           <div class="project-info">
-           <h2><strong>Weather Report</strong></h2>
-            <h3>API Project</h3>
-            <p>
-              A fetch and request API weather app to check the current condition of cities around the world;
-              done with Typescript, React and TailwindCSS.
-            </p>
-
+           <h2><%= t('projects.pr.p3') %></h2>
+            <h3><%= t('projects.pr.p3s') %></h3>
+            <p><%= t('projects.pr.p3d') %></p>
              <div class="tech-skills">
               <%= image_tag 'tech/Reactlogo.png', alt: "reactlogo", class: "tech-icons" %>
               <%= image_tag 'tech/TS-Logo.svg', alt: "tslogo", class: "tech-icons" %>
@@ -344,15 +324,15 @@
       <div id="project_info" class="body-container">
         <div class="project-info-container">
           <div class="project-info">
-           <h2><strong>More projects to come!</strong></h2>
-           <h3>Stay in touch to see my future projects</h3>
+           <h2><%= t('mtc.title') %></h2>
+           <h3><%= t('mtc.desc') %></h3>
           </div>
         </div>
       </div>
       <div class="divider d0"></div>
 
       <div class="body-container">
-        <h2>Curious about my past?</h2>
+        <h2><%= t('past.title') %></h2>
         <div id="project">
               <!-- Slideshow container -->
             <div class="slideshow-container" id="portfolio">
@@ -401,7 +381,7 @@
               <span class="dot-portfolio" onclick="cPortfolio.currentSlide(7)"></span>
             </div>
           </div>
-        <p id="curious" >Check out my previous <a href="https://drive.google.com/drive/folders/1OWToFHsYwPw4ll_vwbzfJ2UeQN7QCaxv?usp=sharing" rel="nofollow">Industrial Designer Portfolio!</a></p>
+        <p id="curious" ><%= t('past.desc') %></p>
       </div>
 
     </div>
