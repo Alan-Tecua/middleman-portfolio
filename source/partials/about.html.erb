@@ -23,7 +23,7 @@
           <div>
 
           <!-- SKILLS -->
-          <h3>My tech Stack:</h3>
+          <h3><%= t('about.skill') %></h3>
             <div class="tech-skills">
               <%= image_tag 'https://res.cloudinary.com/dd05o0vvo/image/upload/v1720156600/Portfolio/icons/ylovb0bxkk0vhjshyyf8.png', alt: "nuxtlogo", class: "tech-icons" %>
               <%= image_tag 'https://res.cloudinary.com/dd05o0vvo/image/upload/v1720156600/Portfolio/icons/nnybifxn2tqbffiuayaw.png', alt: "awslogo", class: "tech-icons" %>
@@ -48,7 +48,7 @@
 
   <!-- WORK -->
     <div class="body-container">
-      <h2>My Work</h2>
+      <h2><%= t('work.title') %></h2>
       <div class="divider d0"></div>
 
       <div id="project_info" class="body-container">
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="project-info">
-            <h2><strong>DOKOJAPAN K.K.</strong></h2>
+            <h2><strong><%= t('work.wp.doko') %></strong></h2>
             <h3>FullStack Developer</h3>
             <p>
               Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development.

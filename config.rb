@@ -16,6 +16,8 @@ page '/*.txt', layout: false
 # I18n
 activate :i18n, langs: [:en, :jp], mount_at_root: :en
 
+activate :cache_buster
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
