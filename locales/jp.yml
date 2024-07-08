@@ -30,7 +30,7 @@ jp:
   mtc:
     title: "<strong>今後のプロジェクトにご期待ください！</strong>"
     desc: "今後のプロジェクトを見るために連絡を取り続けてください"
- footer:
+  footer:
     title: "こちらで見つけてください"
   banner:
     title: "アラン・サンチェス・テクアペトラ"
