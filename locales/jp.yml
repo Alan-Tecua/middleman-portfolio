@@ -1,0 +1,37 @@
+jp:
+  about:
+    title: "挨拶"
+    desc: "<span>アラン</span>です。元工業デザイナーで、日本に住んでおり、今はキャリアを<strong>フルスタックウェブ開発者</strong>に転向しています。"
+    desc2: "コーディングを学び始めたのは、<strong>5年間のデザインスキル</strong>をバックエンドとフロントエンドの幅広い知識で補完し、創造性とプログラミングを融合させ、専門性を次のステップに引き上げるためです。過去の経験を通じて、<strong>チームで働く能力、イニシアチブを取る能力、周囲の人々とコミュニケーションを取る能力</strong>を身に付けました。どんな環境でもうまく働き、積極的にスキルを活用して<strong>目標</strong>を達成します。"
+    desc3: "スキル開発の合間には、<strong>アクロヨガ</strong>の練習、<strong>写真</strong>を撮るためのハイキング、新しい<strong>料理レシピ</strong>を学んで試すのが大好きです。"
+    skill: "私の技術スタック："
+  work:
+    title: "私の仕事"
+    wp:
+      doko: "DOKOJAPAN K.K."
+      position: "フルスタック開発者"
+      doko1: "唯一のフルスタック開発者として、AWSなどのクラウドサービスの保守、vue.jsとTypescriptでのスケーラブルなコンポーネントの作成、Nuxt.jsをメインフレームワークとして使用して開発を行いました。新製品<span><a target='_blank' href='https://www.menuforgood.com/'>menuforGOOD</a></span>の立ち上げに取り組み、Figmaで次のページや機能のプロトタイプを作成しました。MenuForGoodのロゴデザインや関連イラストの作成にも携わりました。"
+  projects:
+    title: "私のプロジェクト"
+    pr:
+      p1: "<strong>Fit-It</strong>"
+      p1s: "UXデザイン<span>+</span>プロダクトリード<span>+</span>フルスタック開発者"
+      p1d: "このウェブアプリケーションは、新居のレイアウトをより良く視覚化することで、引越し準備時のストレスを軽減し、新しい家具の配置を決定するのに役立ちます。スローガンの通り："
+      p1d2: "クリーンレイアウト、クリアマインド。"
+      p2: "<strong>キャンバスカルチャー</strong>"
+      p2s: "UXデザイン<span>+</span>プロダクトリード<span>+</span>フルスタック開発者"
+      p2d: "世界中の有名な絵画を検索、リクエスト、レンタルできる楽しいウェブサイトです。リクエストのリアルタイム通知を受け取ることができ、自分のアートワークのレンタルを承認または拒否し、次のショーイベントのために使用する日時を指定できます。"
+      p3: "<strong>天気予報</strong>"
+      p3s: "APIプロジェクト"
+      p3d: "世界中の都市の現在の天気状況をチェックするためのAPI天気アプリです；Typescript、React、およびTailwindCSSで作成されました。"
+  past:
+    title: "私の過去に興味がありますか？"
+    desc: "私の以前の<a href='https://drive.google.com/drive/folders/1OWToFHsYwPw4ll_vwbzfJ2UeQN7QCaxv?usp=sharing' rel='nofollow'>工業デザイナーポートフォリオ</a>をチェックしてください！"
+  mtc:
+    title: "<strong>今後のプロジェクトにご期待ください！</strong>"
+    desc: "今後のプロジェクトを見るために連絡を取り続けてください"
+ footer:
+    title: "こちらで見つけてください"
+  banner:
+    title: "アラン・サンチェス・テクアペトラ"
+    sub: "<span class='line-separator'> | </span>フルスタックウェブ開発者<span><strong> + </strong></span>デザイナー<span class='line-separator'> | </span>"
