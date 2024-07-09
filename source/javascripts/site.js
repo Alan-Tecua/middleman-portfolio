@@ -32,9 +32,8 @@ function imgCarousel(slideClass, dotClass, index) {
 
 }
 
-
 window.onload = function () {
-  console.log("fix me later");
+  // console.log("fix me later");
   window.cFitit = imgCarousel("fitit", "dot-fitit", 1);
   window.cCanvas = imgCarousel("canvas", "dot-canvas", 1);
   window.cWeather = imgCarousel("weatherAPI", "dot-weather", 1);
