@@ -4,16 +4,16 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #fff; /* or any other background color */
+  background: #231F20;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .spinner {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  border: 16px solid #f4f4f4;
+  border-top: 16px solid #E20A48;
   border-radius: 50%;
   width: 100px;
   height: 100px;

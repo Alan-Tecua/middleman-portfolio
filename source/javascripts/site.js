@@ -32,6 +32,10 @@ function imgCarousel(slideClass, dotClass, index) {
 
 }
 
+window.addEventListener('load', function () {
+  document.getElementById('loading-screen').style.display = 'none';
+});
+
 window.onload = function () {
   // console.log("fix me later");
   window.cFitit = imgCarousel("fitit", "dot-fitit", 1);
