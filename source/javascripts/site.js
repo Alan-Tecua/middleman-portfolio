@@ -44,3 +44,60 @@ window.onload = function () {
   window.cPortfolio = imgCarousel("portfolio", "dot-portfolio", 1);
   window.cDoko = imgCarousel("doko", "dot-doko", 1);
 };
+
+// Tr
+
+// var x = 9;
+// x = x>>2;
+// x = x<<4;
+// x = x ^ 3;
+// console.log(x);
+
+
+
+//op1
+var index = 0;
+do {
+  index++;
+  console.log(index);
+}
+while (index < 10);
+
+//op2
+for (var index = 1; index <= 10; index++);
+console.log(index); //no
+
+for (var index = 0; index <= 10; index++);
+console.log(index); //no
+
+var index = 0;
+do {
+  console.log(++index);
+}
+while (index < 10); // yes
+
+var index = 0;
+do {
+  console.log(index++);
+}
+while (index < 10); // no
+
+var index = 1;
+do {
+  console.log(++index);
+}
+while (index <= 10); // no
+
+//op3
+
+const myArray = [1,3,5,9,23]
+const myIterable = myArray[Symbol.iterator]();
+// const myIterable = myArray.Iterator(); //no
+// const myIterable = myArray(Symbol.iterator); //no
+// const myIterable = myArray.Symbol.iterator(); // no
+// const myIterable = myArray[Iterator]; //no
+
+console.log(myIterable.next());
+console.log(myIterable.next());
+console.log(myIterable.next());
+console.log(myIterable.next());
