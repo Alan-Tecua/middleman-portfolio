@@ -32,6 +32,24 @@ function imgCarousel(slideClass, dotClass, index) {
 
 }
 
+let backBtn = document.getElementById("backToTop");
+window.onscroll = function() {
+  scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backBtn.style.display="block";
+  } else {
+    backBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.display = "none";
+}
+
 window.addEventListener('load', function () {
   document.getElementById('loading-screen').style.display = 'none';
 });
@@ -56,48 +74,50 @@ window.onload = function () {
 
 
 //op1
-var index = 0;
-do {
-  index++;
-  console.log(index);
-}
-while (index < 10);
+// var index = 0;
+// do {
+//   index++;
+//   console.log(index);
+// }
+// while (index < 10);
 
 //op2
-for (var index = 1; index <= 10; index++);
-console.log(index); //no
+// for (var index = 1; index <= 10; index++);
+// console.log(index); //no
 
-for (var index = 0; index <= 10; index++);
-console.log(index); //no
+// for (var index = 0; index <= 10; index++);
+// console.log(index); //no
 
-var index = 0;
-do {
-  console.log(++index);
-}
-while (index < 10); // yes
+// var index = 0;
+// do {
+//   console.log(++index);
+// }
+// while (index < 10); // yes
 
-var index = 0;
-do {
-  console.log(index++);
-}
-while (index < 10); // no
+// var index = 0;
+// do {
+//   console.log(index++);
+// }
+// while (index < 10); // no
 
-var index = 1;
-do {
-  console.log(++index);
-}
-while (index <= 10); // no
+// var index = 1;
+// do {
+//   console.log(++index);
+// }
+// while (index <= 10); // no
 
 //op3
 
-const myArray = [1,3,5,9,23]
-const myIterable = myArray[Symbol.iterator]();
+// const myArray = [1,3,5,9,23]
+// const myIterable = myArray[Symbol.iterator]();
+
+
 // const myIterable = myArray.Iterator(); //no
 // const myIterable = myArray(Symbol.iterator); //no
 // const myIterable = myArray.Symbol.iterator(); // no
 // const myIterable = myArray[Iterator]; //no
 
-console.log(myIterable.next());
-console.log(myIterable.next());
-console.log(myIterable.next());
-console.log(myIterable.next());
+// console.log(myIterable.next());
+// console.log(myIterable.next());
+// console.log(myIterable.next());
+// console.log(myIterable.next());
