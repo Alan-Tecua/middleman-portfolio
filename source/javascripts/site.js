@@ -39,11 +39,15 @@ window.onscroll = function() {
   scrollFunction()
 };
 
+const isActive = () => backBtn.classList.contains("active");
+
 function scrollFunction() {
   if (document.body.scrollTop > (window.innerHeight - 80 ) || document.documentElement.scrollTop > (window.innerHeight - 80)) {
-    backBtn.style.display="block";
+    backBtn.classList.add=("active");
   } else {
-    backBtn.style.display = "none";
+    if (isActive()) {
+      backBtn.classList.remove = ("active");
+    }
   }
 }
 
