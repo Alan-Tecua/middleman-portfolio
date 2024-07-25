@@ -33,12 +33,14 @@ function imgCarousel(slideClass, dotClass, index) {
 }
 
 let backBtn = document.getElementById("backToTop");
+let navBar = document.getElementById("navBar")
+
 window.onscroll = function() {
   scrollFunction()
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > (window.innerHeight - 80 ) || document.documentElement.scrollTop > (window.innerHeight - 80)) {
     backBtn.style.display="block";
   } else {
     backBtn.style.display = "none";
