@@ -44,16 +44,18 @@ const isActive = () => backBtn.classList.contains("active");
 function scrollFunction() {
   if (document.body.scrollTop > (window.innerHeight - 80 ) || document.documentElement.scrollTop > (window.innerHeight - 80)) {
     backBtn.classList.add=("active");
+    navBar.classList.add=("active");
   } else {
     if (isActive()) {
       backBtn.classList.remove = ("active");
+      navBar.classList.remove = ("active");
     }
   }
 }
 
 function topFunction() {
   document.body.scrollTop = 0;
-  document.documentElement.display = "none";
+  document.documentElement.scrollTop = 0;
 }
 
 window.addEventListener('load', function () {
@@ -68,6 +70,15 @@ window.onload = function () {
   window.cPortfolio = imgCarousel("portfolio", "dot-portfolio", 1);
   window.cDoko = imgCarousel("doko", "dot-doko", 1);
 };
+
+const seeProjects = () => {
+  const projects = document.getElementById("projects");
+  return projects.scrollIntoView();
+};
+
+const viewProj = document.getElementById("view-proj");
+viewProj.addEventListener("click", seeProjects);
+
 
 // Tr
 
