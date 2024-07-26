@@ -43,12 +43,14 @@ const isActive = () => backBtn.classList.contains("active");
 
 function scrollFunction() {
   if (document.body.scrollTop > (window.innerHeight - 80 ) || document.documentElement.scrollTop > (window.innerHeight - 80)) {
-    backBtn.classList.add=("active");
-    navBar.classList.add=("active");
+    backBtn.classList.add("active");
+    navBar.classList.add("active");
+    console.log("fix me later navbar");
   } else {
     if (isActive()) {
-      backBtn.classList.remove = ("active");
-      navBar.classList.remove = ("active");
+      backBtn.classList.remove("active");
+      navBar.classList.remove("active");
+      console.log("fix me later bye bye navbar");
     }
   }
 }
@@ -71,13 +73,13 @@ window.onload = function () {
   window.cDoko = imgCarousel("doko", "dot-doko", 1);
 };
 
-const seeProjects = () => {
-  const projects = document.getElementById("projects");
-  return projects.scrollIntoView();
-};
+// const seeProjects = () => {
+//   const projects = document.getElementById("projects");
+//   return projects.scrollIntoView();
+// };
 
-const viewProj = document.getElementById("view-proj");
-viewProj.addEventListener("click", seeProjects);
+// const viewProj = document.getElementById("view-proj");
+// viewProj.addEventListener("click", seeProjects);
 
 
 // Tr
