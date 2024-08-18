@@ -101,8 +101,8 @@ window.onload = function () {
 // while (index < 10);
 
 //op2
-// for (var index = 1; index <= 10; index++);
-// console.log(index); //no
+for (var index = 1; index <= 10; index++);
+console.log(index); //no
 
 // for (var index = 0; index <= 10; index++);
 // console.log(index); //no
@@ -140,3 +140,24 @@ window.onload = function () {
 // console.log(myIterable.next());
 // console.log(myIterable.next());
 // console.log(myIterable.next());
+
+
+//You have two arrays of strings or numbers. Write a function that finds if the there is a common element within the two arrays
+// for example
+// array1 : ['a', 'b', 'c', 'x']
+// array2 : ['b', 'y', '¥']
+// solution(array1, array2) = true
+
+
+let array1 = [ 1, 2, 3, 4, 5, 6, 7,]
+let array2 = [3, 5, ,7 , 9, 0,0 ]
+
+const isMatch = (array1, array2) => {
+  const map = new Map()
+  array1.forEach(item => map.set(item, true));
+  return array2.some(item => map.has(item));
+}
+
+result = isMatch(array1, array2)
+
+console.log(result);
